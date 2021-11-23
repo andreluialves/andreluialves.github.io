@@ -1,0 +1,38 @@
+body {
+    margin:100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Colunas */
+.col-1 {
+    width: 33%;
+    background-color: blueviolet;
+}
+.col-2 {
+    width: 66%;
+    background-color: chartreuse;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: coral;
+}
+
+/* Foto */
+#image {
+    border-radius: 50%;
+    width: 25%;
+}
