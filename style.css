@@ -1,25 +1,73 @@
+/* General */
 body {
     font-family:Arial, Helvetica, sans-serif;
     background-color: rgb(206, 206, 206);
     margin: 0px;
+    color: #464649;
+    font-size: 18px;
 }
 
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    color: rgb(70, 81, 139);
+
 }
 
-/* Colunas */
+h1 {
+    margin-bottom: 7px;
+}
+
+p {
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    color: rgb(13, 25, 82);
+    line-height: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+
+/* Columns */
 .col-1 {
     width: 20%;
     background-color: rgb(13, 25, 82);
     padding-left: 40px;
     padding-top: 50px;
 }
+
+.col-1 a {
+    color: rgb(206, 206, 206);
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.col-1 h3 {
+    padding-top: 10px;
+    color: rgb(206, 206, 206);
+}
+
 .col-2 {
     width: 80%;
     padding: 40px;
 }
 
+.col-2 a {
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+/* Line */
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -27,6 +75,7 @@ h1, h2, h3 {
     flex-wrap: wrap;
 }
 
+/* Container */
 .container {
     width: 100%;
     margin-right: auto;
@@ -35,11 +84,18 @@ h1, h2, h3 {
     display: flex;
 }
 
-/* Foto */
+/* Image */
 #image {
     border-radius: 50%;
     width: 80%;
     filter:grayscale();
     position: relative;
-   /* border: 5px solid #fff;*/
+    display: block;
+}
+
+/* Title */
+#title {
+    line-height: 25px;
+    font-weight: 700;
+    margin-top: 0;
 }
