@@ -9,7 +9,7 @@ body {
 
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
-    margin-top: 30px;
+    margin-top: 38px;
     color: rgba(13, 25, 82, 0.75);
 }
 
@@ -86,7 +86,6 @@ li {
 #image {
     border-radius: 50%;
     width: 80%;
-    filter:grayscale();
     position: relative;
     display: block;
 }
