@@ -10,8 +10,7 @@ body {
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
-    color: rgb(70, 81, 139);
-
+    color: rgba(13, 25, 82, 0.75);
 }
 
 h1 {
@@ -26,8 +25,7 @@ a {
     text-decoration: none;
 }
 
-li{
-    color: rgb(13, 25, 82);
+li {
     line-height: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -98,4 +96,23 @@ li{
     line-height: 25px;
     font-weight: 700;
     margin-top: 0;
+    font-size: 20px;
 }
+
+/* Skills */
+#skill-1 {
+    font-size: 24px;
+}
+
+#skill-2 {
+    font-size: 22px;
+}
+
+#skill-3 {
+    font-size: 20px;
+}
+
+#skill-4 {
+    font-size: 18px;
+}
+
